@@ -1,0 +1,31 @@
+Utils
+    https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf
+
+Paginas Estaticas y dinamicas
+
+    Páginas Estáticas
+
+        Todos los productos para consumir, imagenes, informacion y no cambian , por ejemplo los blogspot
+        Se les conoce como las paginas informativas.
+        La informacion prácticamente no cambia.
+        El cliente no va a poder generar algun tipo de cambio.
+
+    Páginas Dinámicas
+
+        Dejan de ser paginas y se convierten en aplicaciones, se utilizan bases de datos, para poder hacer login.
+        Se puede empezar a interactuar.
+
+    Conclusiones
+        Normalmente podemos realizar una pagina dinamica para generar interaccion con un usuario.
+
+        Fb si dejo 20min abierto, se actualiza todo y el contenido cambia, podemos postear algo, dema   s cosas
+        por lo tanto es una pagina dinamica.
+
+Anatomía de una página web
+    HTML = Hypert Text MArkup Language
+
+    "imagenes/Figura1.PNG"
+
+    como en fb el footer es infinito por ello, lo colocaron al costado de la web.
+
+
