@@ -1,5 +1,12 @@
 Utils
-    https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf
+    Algunas etiquetas de HTML
+     -) https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf
+    
+    Para obtener emojis
+     -) https://emojikeyboard.top/es/
+
+    Para obtener imagenes
+     -) https://www.pexels.com/es-es/
 
 Paginas Estaticas y dinamicas
 
@@ -23,9 +30,48 @@ Paginas Estaticas y dinamicas
 
 Anatomía de una página web
     HTML = Hypert Text MArkup Language
+    
+    Se le conoce como HTML semantico pues puedes utilizar una etiqueta especifica para 
+    la parte en la que te encuentres, como una etiqueta de footer en el footer.
 
     "imagenes/Figura1.PNG"
 
-    como en fb el footer es infinito por ello, lo colocaron al costado de la web.
+    Como en fb el footer es infinito por ello, lo colocaron al costado de la web.
 
+Anatomía de una etiqueta
 
+    <a href = "www.google.com"> visita el navegador </a>
+
+    <> son apertura y cierre 
+    "visita el navegador" es el contenido
+    "www.google.com" es el atributo
+
+Etiquetas Multimedia
+    Tipos de imagenes
+    si utilizamos imagnes muy pesadas se volvera muy lenta la apertura de la pagina
+        Lossy: Formato que nos permite perder calidad pero ayuda en el tiempo de carga
+            - JPG/JPEG (Photographics Expets Group) se utiliza mas para fotografia, son enormes
+                pero al comprimirla va a perder detalles, pero se va a renderizar muy rapido.
+            - SVG (scalabe Vector Graphics) formato vector 
+        Lossless: Formato sin perdida de calidad de la imagen, suelen ser pesadas
+            como utilizan 256 colores, al momento de comprimir no se pierde mucho
+            - Gif(Graphics Interchange Format) no se pueden comprimir
+            - PNG8 (Portable Network Graphics)
+            - PNG24 mas calidad
+                Figura 2
+    
+Optimizando imagenes
+    No se deben utilizar imagenes de 3mg, xk va a tardar mucho tiempo en renderizar
+    ¿Cual es el tamaño optimo para una imagen de proyecto?
+        70KB - 100KB, es lo normal.
+    - Utilizar 2 opciones: paginas en las cuales debemos subir las imagenes y nos retornará
+        la imagen comprimida, las imagenes tienen metadatos
+        * Tiny PNG (Tambien se puede colocar imagenes JPG)
+        * Verexif
+
+Etiqueta form e input 
+    Es una responsabilidad muy grande, El mejor formulario es el que no existe
+
+Autocomplete y requiere
+    Autocomplete es cuando ya se respondio la pregunta, se autocompleta si el usuario desea
+    Requiere es cuando el usuario debe llenar algunos datos si o si para poder pasar a la sig.
