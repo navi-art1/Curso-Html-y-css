@@ -1,0 +1,18 @@
+/*Se puede utilizar el tipo de etiqueta pero no es recomendado*/
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+
+/*Cuando utilzamos class utilizamos .*/
+.parrafo{
+    color: red;
+}
+
+
+/*Cuando se utiliza id utilzamos #*/
+#otroParrafo{
+    color: orange;
+    font-weight: bold;
+}

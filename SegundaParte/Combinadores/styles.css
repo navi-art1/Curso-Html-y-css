@@ -1,0 +1,62 @@
+
+/* Hermano Cercano
+    Solo se estiliza las etiquetas que estan 
+    cercanas h2 de p
+
+
+     <div>
+        <h2>Soy un h2</h2>
+        <p>Soy un p</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un p</p>
+ 
+    </div>
+
+h2 + p {
+    color: red;
+} 
+*/
+
+/*Hermanos generales
+    Como hermano general vamos a estilizar las
+    etiquetas de parrafo que tengan como hermano 
+    general a h2
+    Son hermanos xk estan juntos en la misma linea
+    como hermanos
+
+     <div>
+        <h2>Soy un h2</h2>
+        <p>Soy un p</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un p</p>
+ 
+    </div>
+
+h2 ~ p{
+    color: red;
+}
+
+*/
+
+/*Hijos
+    */
+
+
+/*La etiqueta p que sea hija directa de div
+    a esa etiqueta estilizala
+    -> Hijos directos 
+
+div > p {
+    color: royalblue;
+}
+
+*/
+
+
+/* Todas las etiquetas p que esten dentro de div
+    es la mas habitual*/
+div p{
+    color: blueviolet;
+}

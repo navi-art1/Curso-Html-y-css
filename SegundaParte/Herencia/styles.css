@@ -1,0 +1,12 @@
+html{
+
+    /*El tamaño por defecto de parrafo es 16px*/
+    /*El tamaño por defecto de h1 es 24px*/
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    /*Hereda los atributos de las etiquetas del padre*/
+    font-size: inherit;
+}

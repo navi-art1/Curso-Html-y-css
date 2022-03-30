@@ -1,0 +1,159 @@
+Utils
+    Propiedades de CSs
+        https://i.emezeta.com/weblog/css3-cheatsheet/css3-cheatsheet-2017-emezeta.pdf
+    
+    Juego para aprender herencias en css
+        https://flukeout.github.io/
+
+
+¿Que es css?
+
+    Hojas de estilo en cascada 
+
+    /*Se puede utilizar el tipo de etiqueta pero no es recomendado*/
+        p{
+            color: blue;
+            font-size: 40px;
+        }
+
+
+    /*Cuando utilzamos class utilizamos .*/
+        .parrafo{
+            color: red;
+        }
+
+
+    /*Cuando se utiliza id utilzamos #*/
+        #otroParrafo{
+            color: orange;
+            font-weight: bold;
+        }
+
+Anatomia de una regla de css
+    p{
+        color: red;
+    }
+
+     p es el selector
+     color es la propiedad
+     red el valor de la propiedad
+     color: red es la declaracion
+
+Especifidad de selector
+
+
+    Orden al declara el css
+        1)  Importancia
+        2)  Especifidad
+        3)  Orden de Las Fuentes
+    dependiendo el numero se solucionara los errores
+
+    Figura 4, 
+        Tag < Class < Id < Embedido < Important
+
+    Como css es cascada, siempre se utilizaran los estilos que esten
+    mas abajo.
+
+
+    No es buena practica utilizar ID, es recomendable
+    utilizar clases.
+
+Combinadores: Adjacent Sibling (combinators)
+
+    /* Hermano Cercano
+        Solo se estiliza las etiquetas que estan 
+        cercanas h2 de p
+
+
+        <div>
+            <h2>Soy un h2</h2>
+            <p>Soy un p</p>
+            <h2>Soy un h2</h2>
+            <h3>Soy un h3</h3>
+            <p>Soy un p</p>
+    
+        </div>
+
+    h2 + p {
+        color: red;
+    } 
+    */
+
+    /*Hermanos generales
+        Como hermano general vamos a estilizar las
+        etiquetas de parrafo que tengan como hermano 
+        general a h2
+        Son hermanos xk estan juntos en la misma linea
+        como hermanos
+
+        <div>
+            <h2>Soy un h2</h2>
+            <p>Soy un p</p>
+            <h2>Soy un h2</h2>
+            <h3>Soy un h3</h3>
+            <p>Soy un p</p>
+    
+        </div>
+
+    h2 ~ p{
+        color: red;
+    }
+
+    */
+
+    /*Hijos
+        */
+
+
+    /*La etiqueta p que sea hija directa de div
+        a esa etiqueta estilizala
+        -> Hijos directos 
+
+    div > p {
+        color: royalblue;
+    }
+
+    */
+
+
+    /* Todas las etiquetas p que esten dentro de div
+        es la mas habitual*/
+    div p{
+        color: blueviolet;
+    }
+
+Medidas 
+    Medidas absolutas
+        se utilizan los px
+    
+    Medidas relativas
+        %, em ,rem(root em), max-width, vw, vh
+        Medidas em
+            Al utilzar em al tener etiquetas anidadas
+            podemos generar problemas respecto al tamaño
+            pues puede sobreescribir atributos.
+            por ejemplo 16*1.5 = 24 24*1.5=36
+        
+        Medidas rem
+            Siempre tendra referencia a nuestro navegador
+            de html, normalmente es de 16px
+
+    Siempre utilizar esto al inicio
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* ahora un rem será igual a 10px*/
+
+            html{
+                font-size: 62.5%;
+            }
+    
+    figura5
+
+    Medidas relativas vh,vw 
+        es importante utilzarlos, al estar en 
+        100vh y 100 vh ocupa toda la pantalla
+

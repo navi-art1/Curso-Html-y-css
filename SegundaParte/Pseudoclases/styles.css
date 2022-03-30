@@ -1,0 +1,39 @@
+.main-nav{
+    background-color: aqua;
+    margin-top: 10px;
+    list-style: none;
+    padding: 8px;
+
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/*Ser especifico, a todas las a que esten dentro del nav*/
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/*  los pseudo clases define el estilo de un estado especial
+
+
+
+
+    Hover es un estado, un estado que cubre,
+    estas son pseudoclases (hover y active) se referencia con 2 puntitos */
+.main-nav__item a:hover{
+    color: brown;
+}
+.main-nav__item a:active{
+    color: red;
+}
+
+/* los pseudo elementos se referencian con ::, define el estilo de una parte*/
+
+.main-nav__item a::after{
+    content: " | ";
+}

@@ -1,0 +1,16 @@
+body{
+    font-size: 1.5em;
+}
+.text-container{
+    font-size: 1.5em;
+    /*1em = 16px
+    em va a tomar el tamaño de fuente del padre directo
+    directo.
+    En caso tenga 2 em anidados, las fuentes
+    seran de diferente tamaño, aunque tenga
+    el mismo tamaño de fuente.*/
+}
+
+.text-container div{
+    font-size: 1.5em;
+}
