@@ -1,0 +1,37 @@
+Utils
+    Para revisar el tamaño
+    https://www.mydevice.io/
+
+
+Responsive Design
+    Media Query
+        @media(min-width:480px){
+
+        }
+
+        @media(min-width:768px){
+
+        }
+
+        @media(min-width:1024px)
+
+    Mobile First, empezaremos con movil -> Tablet -> Desktop
+
+    se coloca en el head como si fuera link 
+
+Estrategias de Responsive: mostly fluid
+    tener cambios a medida de los cambios de tamaño de pantalla
+    revisar pagina dropbox
+    revisar pagina github
+
+
+Buenas practicas y ejepmlos de Responsive
+    -) es recomendable tener los archivos de los media query por separado
+        pues si lo tenemos todo, en un solo archivo se puede demorar mucho el tiempo
+        de renderizado
+
+    primero 320 -> 600 -> 800
+    
+imagenes en Responsive
+
+
