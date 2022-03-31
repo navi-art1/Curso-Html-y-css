@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /*strech utiliza todo el espacio que tenga*/
+    /*base line, ocupa solo lo que necesita*/
+}
+
+.container div{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;    /* Vertical */
+    justify-content: center; /* Horizontal */
+}
+
+/*Para utilizar order, debemos colocar el orden
+ a cada uno de los item*/
+
+ /*flex grow, ocupa todo el espacio para poder
+    llenar el espacio faltante*/
+
+/*flex-basis : 10rem
+    flex-grow: 1rem*/
+
+.box1{
+    background-color: rgb(0, 70, 132);
+}
+
+.box2{
+    background-color: rgb(0, 115, 216);
+}
+
+.box3{
+    background-color: rgb(45, 157, 255);
+}
+
+.box4{
+    background-color: rgb(129, 196, 255);
+}
+
+.box5{
+    background-color: rgb(213, 235, 255);
+}
+
+.box6{
+    background-color:rgb(255, 255, 255);
+}
+

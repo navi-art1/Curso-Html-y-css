@@ -1,0 +1,38 @@
+:root{
+    --primary-color: rgb(102, 34, 108);
+    --secunday-color:  rgb(229, 185, 233);
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;/*1rem=10px*/
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255)
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--secunday-color);
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secunday-color);
+}

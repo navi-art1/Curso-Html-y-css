@@ -5,6 +5,12 @@ Utils
     Juego para aprender herencias en css
         https://flukeout.github.io/
 
+    Pagina de Paletas de colores
+        https://colordesigner.io/#00305A-004B8D-0074D9-4192D9-7ABAF2
+
+    Paginas de iconos
+        https://fontawesome.com/search?s=thin
+
 
 ¿Que es css?
 
@@ -126,7 +132,7 @@ Medidas
     Medidas absolutas
         se utilizan los px
     
-    Medidas relativas
+     Medidas relativas
         %, em ,rem(root em), max-width, vw, vh
         Medidas em
             Al utilzar em al tener etiquetas anidadas
@@ -156,4 +162,66 @@ Medidas
     Medidas relativas vh,vw 
         es importante utilzarlos, al estar en 
         100vh y 100 vh ocupa toda la pantalla
+
+    Medidas
+            min-width: 320px;
+            max-width: 500px;
+        Se utilizan para poner un minimo o maximo de espacio en una seccion
+
+Posicion
+    por default viene con posicion static, por ende se van a quedar ahi los elementos,
+    cuando estamos en  posicion static no podemos utilizar el botton
+    o top o left o right
+
+    Absolute
+        Es la posicion por defecto
+
+    Relative
+        Se utiliza para colocar posiciones con top, bottom, left, right
+
+    Figura6
+
+Display
+
+    display:block
+        es el display que viene por defecto, utiliza el 100% del espacio
+        que tiene adelante, sin importar que tenga 1 sola letra,
+        es recomendable colocarle margin a las 4 direcciones
+
+    display: inline
+        utiliza el espacio del contenido y si hay espacio adelante 
+        se puede utilizar a diferencia de display block,
+        en display inline, no se puede utilizar el margin de la parte arriba o abajo,
+        tampoco le podemos dar un width o un heigth
+
+            
+        .nav li {
+            display: inline-block;
+
+            font-size: 20px;
+
+            margin: 10px;
+
+            padding-left: 20px;
+        }    
+
+Layaout es una maquetacion
+    nada mas
+
+Variables
+
+    :root{
+    --primary-color: rgb(102, 34, 108);
+    --secunday-color:  rgb(229, 185, 233);
+    --header-size: 4rem;
+    --font: 1.8rem;
+    }
+
+Fuentes
+    figura 8
+    El font family es la fuente de la pagina
+
+    primero copiar el link en el html con la etiqueta link
+    luego pegar las instrucciones en la hoja de estilos (dentro de html)
+
 
