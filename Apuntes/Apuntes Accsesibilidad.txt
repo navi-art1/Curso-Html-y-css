@@ -1,0 +1,24 @@
+Semantica
+    Es importante siempre utilizar las etiquetas correctas para estar en 
+    las buenas practicas
+
+Textos
+    Es importante que cada vez que utilizemos textos, utilizemos los rem 
+    para que sea escalable, es importante para no tener problemas con las personas
+    con problemas visuales
+    UTILIZAR REM EN TEXTOS
+
+Label, alt title
+    "label" se utiliza en formularios, pues al darle click en la etiqueta, el input se 
+    selecciona de manera automatica
+     <form action = "">
+        <label for ="name">
+            <span> Como te llamas </span>
+        <input id = name type="text" />
+        </label>
+    </form>
+
+    "Alt" se utiliza para colocar, la discripcion al momento de colocar una imagen.
+
+    "title" se utiliza para dar una pequeña descripcion, al momento de pasar el cursor por
+        encima
